@@ -103,7 +103,7 @@ public class UserController {
     /**
      * 处理 "/users/{id}" 的 GET 请求，用来删除 User 信息
      */
-    @RequestMapping(value = "/delete/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/delete/{id}", method = RequestMethod.GET)
     public String deleteUser(@PathVariable Long id) {
 
         userService.delete(id);

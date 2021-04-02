@@ -7,6 +7,8 @@
 		<result column="description" property="description" />
 	</resultMap>
 
+	<parameterMap id="User" type="org.spring.springboot.domain.User"/>
+
 	<sql id="Base_Column_List">
 		id, user_name, description
 	</sql>
