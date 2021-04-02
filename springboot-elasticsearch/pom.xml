@@ -6,7 +6,7 @@
     <groupId>springboot</groupId>
     <artifactId>springboot-elasticsearch</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-elasticsearch</name>
+    <name>springboot-elasticsearch :: 整合 Elasticsearch </name>
 
     <!-- Spring Boot 启动父依赖 -->
     <parent>
